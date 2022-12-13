@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "CVcRuqKb52EhAg/I+ATvcYx3FAdwfKzzdnJJ6yQsooCQ09OeMa5kOxG5kBln+hKZEjgzTu98IwfxUGpoN3J1oA==",
+  "success": true,
+  "projectFilePath": "D:\\TungDT2\\Learning\\.Net\\.Net6\\Net_6\\src\\Net_6.Website\\Net_6.Website.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\VG\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.17.0\\microsoft.visualstudio.azure.containers.tools.targets.1.17.0.nupkg.sha512"
+  ],
+  "logs": []
+}
