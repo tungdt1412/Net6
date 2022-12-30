@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "z1PHBEun4BcBBuvfav4t1Iw0mo9SsZszPbtisxrAhPEimqA2K3Pz9UG1NxMH8KvIQ587Z0td0ikVGPMswnOIpQ==",
+  "dgSpecHash": "SB+PSJNyk6cVyaHtVcslKJ6H69nsQTwZCe70EaX8zkDcdrxr4QxYdF3a2toyXRv64qPEE/dufK65gaJm3UqUuQ==",
   "success": true,
   "projectFilePath": "D:\\TungDT2\\Learning\\.Net\\.Net6\\Net_6\\src\\Net_6.Database\\Net_6.Database.csproj",
   "expectedPackageFiles": [
@@ -66,6 +66,7 @@
     "C:\\Users\\VG\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\VG\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
     "C:\\Users\\VG\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
+    "C:\\Users\\VG\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512",
     "C:\\Users\\VG\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\VG\\.nuget\\packages\\system.codedom\\4.4.0\\system.codedom.4.4.0.nupkg.sha512",
     "C:\\Users\\VG\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
