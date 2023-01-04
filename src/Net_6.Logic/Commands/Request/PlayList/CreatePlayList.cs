@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace Net_6.Logic.Commands.Request
 {
-    public class CreatePlayList
+    public class CreatePlayList : PlayList,
+        IIdentifiedCommand,
+        IRequest<BaseCommandResultWithData<PlayList>>
     {
+        public string? RequestId { get; set; }
+        public string? IpAddress { get; set; }
+        public string? UserName { get; set; }
     }
 }

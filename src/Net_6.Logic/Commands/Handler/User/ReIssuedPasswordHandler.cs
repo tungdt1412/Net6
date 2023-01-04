@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Net_6.Logic.Commands.Handler
 {
-    internal class ReIssuedPasswordHandler
+    public class ReIssuedPasswordHandler 
     {
     }
 }

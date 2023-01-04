@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace Net_6.Logic.Commands.Request
 {
-    public class CreateUser
+    public class CreateUser : User,
+        IIdentifiedCommand,
+        IRequest<BaseCommandResultWithData<User>>
     {
+        public string? Password { get; set; }
+        public string? RequestId { get; set; }
+        public string? IpAddress { get; set; }
+        public string CreateUserName { get; set; } = string.Empty;
     }
 }
