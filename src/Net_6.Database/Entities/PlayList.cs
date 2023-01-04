@@ -17,6 +17,8 @@ namespace Net_6.Database.Entities
 
         public string? UrlMeta { get; set; }
 
+        public string? Keywords { get; set; }
+
         public int? SortIndex { get; set; }
     }
 }

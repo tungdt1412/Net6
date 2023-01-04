@@ -2,17 +2,53 @@ html {
   font-size: 14px;
 }
 
+.input-label {
+    font-size: 14px;
+    font-weight: 900;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+.text-color {
+    color: #f48840 !important;
+}
+
+.btn-color {
+    background-color: #f48840 !important;
+}
+
+.btn-outline-color {
+    border-color: #f48840 !important;
+    color: #f48840 !important;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 12px 20px;
+}
+
 @media (min-width: 768px) {
-  html {
+    html {
     font-size: 16px;
   }
 }
 
-html {
-  position: relative;
-  min-height: 100%;
+#moveTopButton {
+    position: fixed;
+    bottom: 70px;
+    right: 10px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #f48840;
+    color: white;
+    cursor: pointer;
+    padding: 12px 18px;
+    border-radius: 4px;
 }
 
-body {
-  margin-bottom: 60px;
+#moveTopButton:hover {
+    background-color: #555;
 }
+
+
+

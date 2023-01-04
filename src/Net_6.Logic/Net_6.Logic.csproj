@@ -6,4 +6,23 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Events\Data\" />
+    <Folder Include="Events\Handler\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.0" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.0" />
+    <PackageReference Include="MediatR" Version="11.1.0" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Net_6.Commom.Shared\Net_6.Common.Shared.csproj" />
+    <ProjectReference Include="..\Net_6.Database\Net_6.Database.csproj" />
+    <ProjectReference Include="..\Net_6.Logic.Shared\Net_6.Logic.Shared.csproj" />
+    <ProjectReference Include="..\Net_6.Ultils\Net_6.Ultils.csproj" />
+  </ItemGroup>
+
 </Project>
