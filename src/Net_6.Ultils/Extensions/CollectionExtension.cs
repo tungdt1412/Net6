@@ -28,7 +28,7 @@ namespace Net_6.Ultils.Extensions
             StringBuilder data = new StringBuilder();
             foreach (KeyValuePair<string, string> kv in requestData)
             {
-                if (!String.IsNullOrEmpty(kv.Value))
+                if (!string.IsNullOrEmpty(kv.Value))
                 {
                     data.Append(kv.Key + "=" + kv.Value + "&");
                 }
@@ -42,7 +42,7 @@ namespace Net_6.Ultils.Extensions
 
         public static void AddData(this SortedList<string, string> data, string key, string value)
         {
-            if (!String.IsNullOrEmpty(value))
+            if (!string.IsNullOrEmpty(value))
             {
                 data.Add(key, value);
             }
