@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using Net_6.Database;
 using Net_6.Database.Entities;
 using Net_6.Database.Seeders;
+using Net_6.Logic;
 using Net_6.Logic.Commands.Request;
 using Net_6.Logic.MappingProfile;
 using Net_6.Ultils.Extensions;
@@ -19,6 +20,7 @@ builder.Services.AddSqlServerDatabase<AppDatabase>(builder.Configuration.GetConn
 builder.Services.AddIdentityConfig<User, IdentityRole, AppDatabase>();
 builder.Services.AddMediatR(typeof(Login).Assembly);
 builder.Services.AddAutoMapper(typeof(AuthorMappingProfile).Assembly);
+builder.Services.AddQueries();
 
 // Add services to the container.
 var app = builder.Build();
@@ -49,6 +51,6 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=Site}/{action=Index}/{id?}");
 
 app.Run();
