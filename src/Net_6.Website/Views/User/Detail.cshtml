@@ -48,7 +48,7 @@
                             <label class="form-label" style="font-weight: bold;">Tài khoản:</label>
                             <input class="form-control" type="text" asp-for="UserName" readonly>
                         }
-                       
+
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -74,11 +74,12 @@
                                 var authors = authorQueries.GetAll();
                                 foreach (var author in authors)
                                 {
-                                    if(author.Id.ToString() == Model.AuthorId) 
+                                    if (author.Id.ToString() == Model.AuthorId)
                                     {
                                         <option value="@author.Id" selected>@author.ShortName</option>
                                     }
-                                    else{
+                                    else
+                                    {
                                         <option value="@author.Id">@author.ShortName</option>
                                     }
                                 }

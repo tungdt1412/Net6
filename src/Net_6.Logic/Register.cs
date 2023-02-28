@@ -14,6 +14,15 @@ namespace Net_6.Logic
         public static IServiceCollection AddQueries(this IServiceCollection services)
         {
             services.AddScoped<IAuthorQueries, AuthorQueries>();
+            services.AddScoped<ICategoryQueries, CategoryQueries>();
+            services.AddScoped<IPostQueries, PostQueries>();
+            services.AddScoped<ICommentQueries, CommentQueries>();
+            services.AddScoped<IPlayListQueries, PlayListQueries>();
+            services.AddScoped<IRoleQueries, RoleQueries>();
+            services.AddScoped<ITagQueries, TagQueries>();
+            services.AddScoped<IUserQueries, UserQueries>();
+            services.AddScoped<IVideoQueries, VideoQueries>();
+
             return services;
         }
     }
